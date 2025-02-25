@@ -1,55 +1,52 @@
-# Project Name
 
-<!-- describe your project -->
+# Calculator
 
----
-
+## The Calculator project is a a simple calculator that offers:
+	•	User-Friendly Interface: A clean layout with large, easy-to-read buttons and display.
+	•	Essential Functions: Inclusion of basic arithmetic operations without overwhelming users with advanced features.
+	
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- create a repo(Calculator) from the
+  template([HackYourFutureBelgium/template-html-css](https://github.com/sammou00/js-starter))
+- protect the main branch
+- turn on github pages
+- open discussions about project
 
 ---
 
-<!-- copy this section once for each must-have user story -->
+## Home page
 
-## user story
+### Header
 
-<!-- each issue created from this section will have the `for: user story` label -->
+This feature developed on a branch 'calculator-implementation`
 
-> "as a ... i can ... so that ..."
+#### HTML
 
-<!-- write any extra notes or description -->
+- create a `header`
+- create a `div` with class `calculator`
+- create a heading with `h1`
+- create a `div` with class `display` and id `display`
+- create a `div` with class `buttons` and id `buttons`
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
 
-### Logic: user story
+#### JavaScript
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- Create two variable  display & buttons to get element.
+- create an array of my data/ 
+- create variable result for Store the input expression.
+- create a variable btn and store the dom button element in btn
+-  Attach the click handler
+-  Evaluate the expression
+-   Append clicked button value to result.
+-   Update display
 
-### Interface: user story
+#### CSS
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Interaction: user story
-
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Documentation: user story
-
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- style the`calculator` class with background-color, padding, border-radius, box-shadow
+- style the`display` class with  height: 50px;width: 93%; background-color,black;color,text-align, padding,
+    font-size,border-radius,margin-bottom, overflow
+- style the `buttons`class with display,grid-template-columns
+- style the `btn` with background-color color,padding, font-size, border, border-radius,cursor,transition
+- style the dom element btn.operator with background-color ,color and .btn.clear with background-color color
+.btn.equal, background-color colo, grid-column, and .btn.zero with grid-column an btn with background-color

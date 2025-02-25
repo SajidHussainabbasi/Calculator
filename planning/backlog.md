@@ -1,30 +1,18 @@
+
 # Backlog
 
-A collection of user stories you can choose from. Stories inside each priority
-level are not necessarily in order, it's up to your group to decide how they fit
-into your strategy. These are also just suggestion, feel free to change them or
-create your own!
+- As a user I want to see the display of my calculator   so I need a display
+- As a user I want to do some arithmetic operations  through numbers so I need a keypad
+- As a user I want to add,subtract,divide,multiplication so i need these buttons on my calculator
+  
+- As a user I want to clear my display so i need a main button C on my calculator
 
 ## Must-Haves
 
-> these are necessary for basic usability
-
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- Simple arithmetic operations
 
 ## Should-Haves
 
-> these will complete the user experience, but are not necessary
-
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+N/A
 
 ## Could-Haves
-
-> would be really cool ... if there's time
-
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_

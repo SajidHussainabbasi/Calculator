@@ -1,17 +1,15 @@
+
 # Design
 
 ## Project's design overview
 
-> Give an overview of your project's design
+> 
 
-<!-- give an overview of your project's design -->
-<!-- describe the reasoning behind your group's design and wireframe -->
-<!-- include other centralized decisions like fonts, palates, ... -->
-
----
-
+- The Calculator will provide User-Friendly Interface: A clean layout with large, easy-to-read buttons and display.
+- Essential Functions: Inclusion of basic arithmetic operations without overwhelming users with advanced features.
+- The calculator project meets the needs of its intended audience, providing a functional and accessible tool for everyday calculations.
 ## Wireframe(s)
 
-> Include your wireframe(s) and link to wireframe
+>
 
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+![Calculator](./wirframe-design-calculator.png)
