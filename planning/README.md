@@ -1,133 +1,111 @@
-# How to Plan
+# Calculator
 
-1. [Brainstorming](#brainstorming)
-2. [Prioritizing](#prioritizing)
-3. [User Story Dependencies](#user-story-dependencies)
-4. [Acceptance Criteria](#acceptance-criteria)
-5. [Defining Tasks](#defining-tasks)
-6. [Project Board](#project-board)
-7. [Sprinting and Reviewing](#sprinting-and-reviewing)
+> The Calculator project  offer a User-Friendly Interface and  a clean layout with large, easy-to-read buttons and display and Essential Functions,Inclusion of basic arithmetic operations without overwhelming users with advanced features.
+  
 
----
+- [Calculator](#calculator)
+  - [General info](#general-info)
+  - [Table of contents](#table-of-contents)
+  - [Screenshots](#screenshots)
+  - [Technologies](#technologies)
+  - [Setup](#setup)
+  - [Code Examples](#code-examples)
+  - [Status](#status)
+  - [Inspiration](#inspiration)
+  - [Contact](#contact)
+  - [Instructions for use](#instructions-for-use)
+  - [Code Quality Checks](#code-quality-checks)
+  - [Continuous Integration (CI)](#continuous-integration-ci)
+  - [Repo Setup](#repo-setup)
 
-## Brainstorming
+## General info
 
-> - What user needs and business problem does this app cover?
-> - Who is the user?
-> - What is the business?
+> This project meets the needs of its intended audience, providing a functional and accessible tool for everyday calculations.
+## Table of contents
+## Screenshots
 
----
+![Example screenshot](/planning/calculator.png)
 
-## Prioritizing
 
-> How to decide which stories to focus on.
+## Technologies
 
-At this stage in planning your team will decide which stories are more aor less
-important. You will be writing your ideas into a _backlog_.
+- Node 14.16.0
+- VSC code
+- HTML & CSS
+- JavaScript
+- ...
 
-- [Many Strategies](https://zapier.com/blog/how-to-prioritize)
-- The Priority Quadrant
-  - [The Quadrant](https://www.youtube.com/watch?v=NGvsxPOmWuw)
-  - [Problems with this method](https://www.linkedin.com/pulse/why-prioritization-impacteffort-doesnt-work-itamar-gilad)
-- Other Perspectives
-  - [Alex Ponomarev](https://medium.com/swlh/prioritizing-user-stories-in-agile-projects-d1dd8dd79165)
-  - [Michael Lant](https://michaellant.com/2010/05/21/how-to-easily-prioritize-your-agile-stories/)
+## Setup
 
----
+- `npm run start`
 
-## Acceptance Criteria
+## Code Examples
 
-> How you'll know when a story is finished.
+![Example screenshot](./Screenshot%202025-02-25%20142033.png)
 
-Now that you have an idea what the project will eventually be like, it's time to
-get specific. Acceptance criteria are a way to scope and verify your user
-stories.
+## Status
 
-> Given [context] when [a specific action is performed] then [a set of > > > > >
->
-> > consequences should occur]
+Project has Completed
 
-You can write your first-draft acceptance criteria in your backlog, later moving
-them under each user story in your `development-strategy.md`, and ultimately
-creating a checklist in each issue.
+## Inspiration
 
-- [Yodiz](https://www.yodiz.com/blog/user-stories-acceptance-definition-and-criteria-in-agile-methodologies/)
-- [Zepel](https://zepel.io/agile/acceptance-criteria-for-user-stories/)
-- [Ruby Garage](https://rubygarage.org/blog/clear-acceptance-criteria-and-why-its-important)
-- [The Infinity Project](https://www.youtube.com/watch?v=KYS0ptJ4JWc)
-  1. User Input / User Action
-  2. Process
-  3. Results
+Project by freeCodeCamp.org
 
----
+## Contact
 
-## User Story Dependencies
+[Sajid Hussain](https://github.com/SajidHussainabbasi)
 
-> How to plan your development schedule.
+## Instructions for use
 
-Some user stories depend on each other, some do not. Figuring out these
-relationships will make it possible go from a disorganized backlog to an
-organized development strategy.
+<details>
+  <summary>Getting Started</summary>
 
-Understanding these dependencies can also allow you to develop much more
-efficiently. You can develope user stories that do not depend on each other in
-parallel instead of waiting for one to finish before moving on the next.
+<!-- a guide to using this repository -->
 
-Here are some questions you can ask yourself to help understand your project:
+1. `git clone git@github.com:HackYourFutureBelgium/template-markdown.git`
+2. `cd template-markdown`
+3. `npm install`
 
-- Do I need _A_ in order to be able to build _B_?
-- Can the user do B without A being available?
+## Code Quality Checks
 
-A nice way to visualize these relationships is by creating a graph to visually
-represent dependencies:
+- `npm run format`: Makes sure all the code in this repository is well-formatted
+  (looks good).
+- `npm run lint:ls`: Checks to make sure all folder and file names match the
+  repository conventions.
+- `npm run lint:md`: Will lint all of the Markdown files in this repository.
+- `npm run lint:css`: Will lint all of the CSS files in this repository.
+- `npm run validate:html`: Validates all HTML files in your project.
+- `npm run spell-check`: Goes through all the files in this repository looking
+  for words it doesn't recognize. Just because it says something is a mistake
+  doesn't mean it is! It doesn't know every word in the world. You can add new
+  correct words to the [./.cspell.json](./.cspell.json) file so they won't cause
+  an error.
+- `npm run accessibility -- ./path/to/file.html`: Runs an accessibility analysis
+  on all HTML files in the given path and writes the report to
+  `/accessibility_report`
 
-- [a quiz app](https://excalidraw.com/#json=5248906938023936,dnJz0Qy9tk5M4ho-RUiqYQ)
-- [a portfolio example](https://github.com/elewa-student/User-Centered-Development#story-dependencies)
+## Continuous Integration (CI)
 
-[Excalidraw](https://excalidraw.com/) is a great tool for collaboratively
-writing these diagrams.
+When you open a PR to `main`/`master` in your repository, GitHub will
+automatically do a linting check on the code in this repository, you can see
+this in the[./.github/workflows/lint.yml](./.github/workflows/lint.yml) file.
 
----
+If the linting fails, you will not be able to merge the PR. You can double check
+that your code will pass before pushing by running the code quality scripts
+locally.
 
-## Defining Tasks
+## Repo Setup
 
-> How to break the story into coding tasks.
+- Give each member **_write_** access to the repo (if it's a group project)
+- Turn on GitHub Pages and put a link to your website in the repo's description
+- Go to _General_ Section > check **Discussions**
+- In the _Branches_ section of your repo's settings make sure the
+  `master`/`main` branch must:
+  - "_Require a pull request before merging_"
+  - "_Require approvals_"
+  - "_Dismiss stale pull request approvals when new commits are pushed_"
+  - "_Require status checks to pass before merging_"
+  - "_Require branches to be up to date before merging_"
+  - "_Do not allow bypassing the above settings_"
 
-Answering these questions is a way to break down complex user stories and to
-determine what code is needed. Following this questions guide will help you fill
-in the specifications of each step in your `development-strategy.md`
-
-Handlers are the glue of your user stories. Understanding your answers to these
-questions will not only help you decide which tasks to develop, but can be used
-to plan the details of the user story's handler:
-
-1. **User Story Objectives**
-   1. _... ?_
-2. **User Flow ?**
-   1. _... ?_
-3. **Wireframes ?**
-   1. _... ?_
-
-- [Lars Bilde](https://www.youtube.com/watch?v=gZ4uLafsxAk)
-- [Christiaan Verwijs](https://medium.com/the-liberators/10-powerful-strategies-for-breaking-down-user-stories-in-scrum-with-cheatsheet-2cd9aae7d0eb)
-
----
-
-## Project Board
-
-> How to manage your team's project
-
-Convert your development strategy into milestones (user stories), issues, labels
-and a project board. When you create the milestones for your user stories, you
-can include the _acceptance criteria_ as a checklist in the milestone's
-description.
-
-This isn't a permanent thing! You can always adjust the project board and
-development strategy as the project evolves; adding issues, removing issues,
-adjusting tasks ... whatever is necessary to make the project go smoothly.
-
----
-
-## Sprinting and Reviewing
-
-The fun part, writing code and closing issues ;)
+</details>

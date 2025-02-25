@@ -29,7 +29,7 @@ function clickHandler(btnData) {
       result = eval(result).toString(); 
     } catch (e) {
       result = 'Error';
-    }
+     }
   } else {
     result += btnData; 
   }
