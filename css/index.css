@@ -8,12 +8,13 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: #fff;
-    background-color: #27859C;
+    background-color: #27859c;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+
 .calculator {
     background-color: #333;
     padding: 20px;
@@ -37,6 +38,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
+
 .btn {
     background-color: #fff;
     color: #333;
@@ -47,16 +49,18 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
 .btn.operator {
-    background-color: #FF9500;
+    background-color: #ff9500;
     color: white;
 }
+
 .btn.clear {
-    background-color: #FF3B30;
+    background-color: #ff3b30;
     color: white;
 }
 .btn.equal {
-    background-color: #4CD964;
+    background-color: #4cd964;
     color: white;
     grid-column: span 1;
 }
@@ -66,4 +70,3 @@ body {
 .btn:hover {
     background-color: #ddd;
 }
-

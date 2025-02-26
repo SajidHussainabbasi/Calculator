@@ -1,7 +1,6 @@
 # Calculator
 
-> The Calculator project  offer a User-Friendly Interface and  a clean layout with large, easy-to-read buttons and display and Essential Functions,Inclusion of basic arithmetic operations without overwhelming users with advanced features.
-  
+> The Calculator project offer a User-Friendly Interface and a clean layout with large, easy-to-read buttons and display and Essential Functions,Inclusion of basic arithmetic operations without overwhelming users with advanced features.
 
 - [Calculator](#calculator)
   - [General info](#general-info)
@@ -21,11 +20,12 @@
 ## General info
 
 > This project meets the needs of its intended audience, providing a functional and accessible tool for everyday calculations.
+
 ## Table of contents
+
 ## Screenshots
 
 ![Example screenshot](/planning/calculator.png)
-
 
 ## Technologies
 
