@@ -41,7 +41,7 @@
 
 ## Code Examples
 
-![Example screenshot](./Screenshot%202025-02-25%20142033.png)
+![Example screenshot](./planning/Screenshot-code.png)
 
 ## Status
 
